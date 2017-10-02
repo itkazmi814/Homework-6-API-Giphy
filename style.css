@@ -1,0 +1,41 @@
+img{
+	width: 100%;
+}
+
+iframe{
+	width: 100%;
+}
+
+body{
+	background-image: url("ep_naturalblack.png");
+}
+
+form{
+	background: none;
+	color: white;
+	font-weight: bold;
+}
+
+header{
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.main-content{
+	border: none
+}
+
+.head-card{
+	width: 50%;
+	background: rgba(255,255,255,.3);
+}
+
+.media-box{
+	border: none;
+	background: none;
+}
+
+#topic-form{
+	background: none;
+}
