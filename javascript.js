@@ -24,7 +24,7 @@ var apiPuller = {
 
 	pullFromAPIs: function () {
 		var topic = $(this).attr("data-topic");
-		var gifQueryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=10"
+		var gifQueryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&rating=y&rating=g&rating=pg&rating=pg-13&api_key=dc6zaTOxFJmzC&limit=10"
 		var tweetQueryURL = 
 
 		$.ajax({
