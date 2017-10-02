@@ -23,7 +23,6 @@ var apiPuller = {
 	},
 
 	pullFromAPIs: function () {
-		// var queryURL = "http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=eBr4JpTHSlXwCx1M11CYUJ4HhIeq21LcY&limit=5"
 		var topic = $(this).attr("data-topic");
 		var gifQueryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=10"
 		var tweetQueryURL = 
@@ -42,7 +41,6 @@ var apiPuller = {
 			console.log(response);
 			apiPuller.applyYouTubeSpecification(response);
 		})
-
 	},
 
 	applyYouTubeSpecification: function (response) {
